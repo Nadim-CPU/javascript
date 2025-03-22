@@ -44,3 +44,15 @@ function removeOrange(identifiedIndex) {
     fruitLength--;
 }
 
+const repeatString = function(input, num) {
+    var output = '';
+    for (let i = 0; i < num; i++) {
+        output += input;
+    }
+    console.log(output);
+};
+
+console.log('Outputting a repeating string');
+
+repeatString('Hey', 3);
+
