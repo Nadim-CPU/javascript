@@ -22,3 +22,29 @@ const displayAll = document.querySelectorAll("#container");
 
 const displayAllNodes = Array.from(displayAll);
 console.log(displayAllNodes);
+
+// ------------------- CREATE ELEMENT -----------------------
+
+const elementCreation = document.createElement("divider");
+
+const p = document.createElement("p");
+
+/**
+ * ABSOLUTE SPAGHETTI CODE IGNORE!!!!!! I WAS JUST FUCKING AROUND
+ */
+
+container.append(p);
+
+container.style.color = "blue";
+container.style.backgroundColor = "blue";
+
+container.appendChild(elementCreation);
+
+console.log(container.childNodes);
+
+elementCreation.style.color = "blue";
+
+elementCreation.style.cssText = "color: blue; background: white;";
+
+// OR elementCreation.setAttribute("style", "color: blue; background: white;");
+
